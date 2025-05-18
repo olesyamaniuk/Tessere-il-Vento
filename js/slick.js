@@ -1,5 +1,5 @@
 $(function () {
-  $(".w-j-why-list").slick({
+  $(".e-a-why-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -7,9 +7,9 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 1000,
-    centerMode: true,
+
     cssEase: "linear",
-    prevArrow: ".w-j-why-list-left",
-    nextArrow: ".w-j-why-list-right",
+    prevArrow: ".e-a-why-list-left",
+    nextArrow: ".e-a-why-list-right",
   });
 });
